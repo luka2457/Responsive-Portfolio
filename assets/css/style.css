@@ -15,6 +15,7 @@ header {
     margin-bottom: 20px;
     width: 100%;
     overflow: auto;
+   
 
 }
 
@@ -220,3 +221,73 @@ h4 {
 .portfoliomain {
     height:600px;
 }
+
+
+@media screen and (max-width: 980px) {
+
+    main {
+        width: 750px;
+
+    }
+
+    .portfoliomain {
+        height: 850px;
+    }
+
+    .top_container {
+        width: 85%;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    main {
+        width: 600px;
+    }
+
+    .top_container {
+        width: 100%;
+        text-align: right;
+        float: none;
+    }
+    .myname {
+        width:100%;
+        float:none;
+    }
+
+    nav {
+        float:none;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    main {
+        width: 490px;
+    }
+
+    header {
+        position:static;
+    }
+
+    .myname {
+        width:100%;
+        float:none;
+    }
+    
+    .top_container {
+        width: 100%;
+        float:none;
+    }
+
+    nav {
+        float:none;
+    }
+
+
+
+}
+
